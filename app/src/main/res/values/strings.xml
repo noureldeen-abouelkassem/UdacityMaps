@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UdacityMaps</string>
+    <string name="map">Map</string>
+    <string name="satellite">Satellite</string>
+    <string name="hybird">Hybird</string>
+    <string name="Egypt">Egypt</string>
+    <string name="Tokyo">Tokyo</string>
+    <string name="Germany">Germany</string>
+</resources>

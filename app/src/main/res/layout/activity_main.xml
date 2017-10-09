@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.noureldeen.udacitymaps.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnMap"
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:text="@string/map"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/btnSatellite"
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:text="@string/satellite"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/btnHybird"
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:text="@string/hybird"
+            android:layout_height="match_parent" />
+    </LinearLayout> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnEgypt"
+        android:layout_width="0dp"
+        android:padding="5dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:text="@string/Egypt"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/btnTokyo"
+        android:layout_width="0dp"
+        android:padding="5dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:text="@string/Tokyo"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/btnGermany"
+        android:layout_width="0dp"
+        android:padding="5dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:text="@string/Germany"
+        android:layout_height="match_parent" />
+</LinearLayout>
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.MapFragment" />
+
+</LinearLayout>
